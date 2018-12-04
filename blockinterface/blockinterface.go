@@ -37,14 +37,14 @@ type Block interface {
 	// Index - Block height.
 	Index() uint64
 
+	// Bytes - Contents of operation script.
+	Bytes() []byte
+
 	// Hash - Operation hash identifier.
 	Hash() Hash
 
-	// Prev - Hash of previous block in chain.
-	Prev() Hash
-
-	// Bytes - Contents of operation script.
-	Bytes() []byte
+	// PrevHash - Hash of previous block in chain.
+	PrevHash() Hash
 
 	// Operations - List of operations in block.
 	// Known as transactions list in currencies.
