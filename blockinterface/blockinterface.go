@@ -23,9 +23,6 @@ type Hash interface {
 	Bytes() []byte
 }
 
-// Metadata - Rootchain custom metadata interface.
-type Metadata map[string]interface{}
-
 // Operation - Rootchain operation interface.
 type Operation interface {
 	// Hash - Operation hash identifier.
@@ -33,21 +30,21 @@ type Operation interface {
 
 	// Bytes - Contents of operation script.
 	Bytes() []byte
-
-	// Metadata - Custom block metadata.
-	Metadata() Metadata
 }
 
 // Block - Rootchain block interface.
 type Block interface {
-	// Operation - Block operation interface.
-	Operation
+	// Index - Block height.
+	Index() uint64
 
-	// Height - Block height.
-	Height() uint64
+	// Hash - Operation hash identifier.
+	Hash() Hash
 
 	// Prev - Hash of previous block in chain.
 	Prev() Hash
+
+	// Bytes - Contents of operation script.
+	Bytes() []byte
 
 	// Operations - List of operations in block.
 	// Known as transactions list in currencies.
@@ -55,4 +52,7 @@ type Block interface {
 
 	// Timestamp - Block creation timestamp.
 	Timestamp() time.Time
+
+	// Metadata - Custom operation metadata.
+	Metadata() map[string]interface{}
 }
