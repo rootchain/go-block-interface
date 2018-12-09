@@ -16,9 +16,8 @@
   ],
   "gxVersion": "0.14.0",
   "language": "go",
-  "license": "GPL-3",
+  "license": "GPL-3.0",
   "name": "go-primitive-block",
   "releaseCmd": "git commit -a -m \"chore(gx): gx publish $VERSION\"",
   "version": "0.1.0"
 }
-

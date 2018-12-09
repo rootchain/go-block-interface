@@ -17,7 +17,7 @@ This source code is part of [IPFN](https://github.com/ipfn) – interplanetary f
 
 [docs]: https://docs.ipfn.io/
 [COPYING]: https://github.com/rootchain/go-primitive-block/blob/master/COPYING
-[badge-copying]: https://img.shields.io/badge/license-GPL%203-blue.svg?style=flat-square
+[badge-copying]: https://img.shields.io/badge/license-GPL%203.0-blue.svg?style=flat-square
 [badge-docs]: https://img.shields.io/badge/documentation-IPFN-blue.svg?style=flat-square
 [badge-godoc]: https://godoc.org/github.com/rootchain/go-primitive-block/block?status.svg
 [badge-ipfn]: https://img.shields.io/badge/project-IPFN-blue.svg?style=flat-square
