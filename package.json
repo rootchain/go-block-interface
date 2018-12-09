@@ -1,0 +1,23 @@
+{
+  "author": "IPFN Developers <dev@ipfn.io>",
+  "bugs": {
+    "url": "https://github.com/rootchain/go-block-interface/issues/new"
+  },
+  "gx": {
+    "dvcsimport": "github.com/rootchain/go-block-interface"
+  },
+  "gxDependencies": [
+    {
+      "author": "whyrusleeping",
+      "hash": "QmR8BauakNcBa3RbE4nbQu76PDiJgoQgz8AJdhJuiU4TAw",
+      "name": "go-cid",
+      "version": "0.9.1"
+    }
+  ],
+  "gxVersion": "0.14.0",
+  "language": "go",
+  "license": "GPL-3",
+  "name": "go-block-interface",
+  "releaseCmd": "git commit -a -m \"chore(gx): gx publish $VERSION\"",
+  "version": "0.0.0"
+}
