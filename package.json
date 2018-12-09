@@ -1,10 +1,10 @@
 {
   "author": "IPFN Developers <dev@ipfn.io>",
   "bugs": {
-    "url": "https://github.com/rootchain/go-block-interface/issues/new"
+    "url": "https://github.com/rootchain/go-primitive-block/issues/new"
   },
   "gx": {
-    "dvcsimport": "github.com/rootchain/go-block-interface"
+    "dvcsimport": "github.com/rootchain/go-primitive-block"
   },
   "gxDependencies": [
     {
@@ -17,7 +17,8 @@
   "gxVersion": "0.14.0",
   "language": "go",
   "license": "GPL-3",
-  "name": "go-block-interface",
+  "name": "go-primitive-block",
   "releaseCmd": "git commit -a -m \"chore(gx): gx publish $VERSION\"",
-  "version": "0.0.0"
+  "version": "0.1.0"
 }
+
